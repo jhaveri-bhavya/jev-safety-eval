@@ -1,0 +1,33 @@
+[project]
+name = "jev-safety"
+version = "0.1.0"
+description = "Benchmark of TypeSafe Jev vs Gemma 4 31B and cheap baselines on NVIDIA Aegis 1.0 content safety"
+authors = [
+    { name = "jhaveri-bhavya", email = "jhaveri.bhavya.s@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=5.0.1",
+    "httpx>=0.28.1",
+    "huggingface-hub>=1.33.0",
+    "langchain-core>=1.6.2",
+    "langchain-typesafe==0.0.1a3",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "ollama>=0.6.3",
+    "pandas>=3.0.6",
+    "python-dotenv>=1.2.4",
+    "scikit-learn>=1.9.1",
+    "sentence-transformers>=6.1.0",
+    "tenacity>=9.1.4",
+    "tqdm>=4.70.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.14,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
