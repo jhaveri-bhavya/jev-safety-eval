@@ -18,3 +18,9 @@ Safe and Needs Caution. Only the 1,199-row test split is sent to the model APIs.
 
 ## Status
 Work in progress: setup and API smoke tests are done (`scripts/smoke_*.py`). Results will follow.
+
+## License
+Code is released under the [MIT License](LICENSE). Files derived from Aegis 1.0 (gold labels,
+predictions keyed by Aegis `id`, and any exported texts) are released under
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/), the dataset's own license, with
+attribution to NVIDIA.
