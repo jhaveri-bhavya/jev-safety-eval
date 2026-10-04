@@ -12,6 +12,7 @@ load_dotenv(ROOT / ".env", override=True)
 TYPESAFE_API_KEY = os.getenv("TYPESAFE_API_KEY", "")
 OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY", "")
 HF_TOKEN = os.getenv("HF_TOKEN", "")
+LISA_API_KEY = os.getenv("LISA_API_KEY", "")
 
 JEV_MODEL = "jev-1.13.0"
 GEMMA_HOST = "https://ollama.com"
